@@ -1,3 +1,11 @@
+:root {
+   --color-bg: #F8E9DD;
+   --color-red: #EC755D;
+   --color-darkBrown: #382314;
+   --color-mediumBrown: #92857A;
+   --color-cyan: #76B5BC;
+}
+
 * {
   margin: 0;
   padding: 0;
