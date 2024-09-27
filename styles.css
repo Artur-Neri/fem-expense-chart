@@ -32,8 +32,10 @@ h1 {
 }
 
 .balance__value {
+  margin-top: 4px;
   font-weight: bold;
   font-size: 24px;
+  line-height: 31px;
 }
 
 .container {
