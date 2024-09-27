@@ -1,0 +1,41 @@
+:root {
+   --color-bg: #F8E9DD;
+   --color-red: #EC755D;
+   --color-darkBrown: #382314;
+   --color-mediumBrown: #92857A;
+   --color-cyan: #76B5BC;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+ul {
+  list-style: none;
+}
+
+body {
+  background-color: var(--color-bg);
+  margin: 0 16px;
+  font-family: "DM Sans", sans-serif;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  margin: 0 auto;
+  width: 100%;
+  max-width: 540px;
+}
+
+img {
+  display: block;
+}
+
+.container > * {
+  width: 100%;
+}
