@@ -26,6 +26,16 @@ img {
   display: block;
 }
 
+h1 {
+  font-size: 15px;
+  font-weight: 400;
+}
+
+.balance__value {
+  font-weight: bold;
+  font-size: 24px;
+}
+
 .container {
   display: flex;
   justify-content: center;
@@ -48,6 +58,8 @@ img {
 
   border-radius: 20px;
   padding: 20px 24px 22px 20px;
+
+  color: white;
 }
 
 .logo {
