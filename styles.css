@@ -15,3 +15,41 @@
 ul {
   list-style: none;
 }
+
+body {
+  background-color: var(--color-bg);
+  margin: 0 16px;
+  font-family: "DM Sans", sans-serif;
+}
+
+img {
+  display: block;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  margin: 0 auto;
+  width: 100%;
+  max-width: 540px;
+}
+
+.container > * {
+  width: 100%;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: var(--color-red);
+
+  border-radius: 20px;
+  padding: 20px 24px 22px 20px;
+}
+
+.logo {
+  width: 60px;
+}
