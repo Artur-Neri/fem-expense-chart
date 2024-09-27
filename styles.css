@@ -29,6 +29,7 @@ img {
 h1 {
   font-size: 15px;
   font-weight: 400;
+  line-height: 20px;
 }
 
 .balance__value {
@@ -66,4 +67,25 @@ h1 {
 
 .logo {
   width: 60px;
+}
+
+@media (min-width: 450px) {
+  .header {
+    padding: 27px 39px 25px 32px;
+  }
+
+  h1 {
+    font-size: 18px;
+    line-height: 23px;
+  }
+
+  .balance__value {
+    margin-top: 8px;
+    font-size: 32px;
+    line-height: 42px;
+  }
+
+  .logo {
+    width: 72px;
+  }
 }
