@@ -12,13 +12,15 @@
 
 
 .header__balance-title {
+  margin-bottom: 4px;
+
   font-size: 15px;
   font-weight: 400;
   line-height: 20px;
 }
 
 .header__balance-value {
-  margin-top: 4px;
+  /* margin-top: 4px; */
   font-weight: bold;
   font-size: 24px;
   line-height: 31px;
@@ -38,10 +40,12 @@
   .header__balance-title {
     font-size: 18px;
     line-height: 23px;
+    margin-bottom: 8px;
+
   }
 
   .header__balance-value {
-    margin-top: 8px;
+    /* margin-top: 8px; */
     font-size: 32px;
     line-height: 42px;
   }
