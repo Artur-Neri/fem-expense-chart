@@ -1,4 +1,3 @@
-// import data from '/data.json' assert { type: 'json' };
 const graph = document.querySelector('#graph');
 const days = document.querySelector('#days');
 const data = fetch('/data.json').then(response => response.json())
