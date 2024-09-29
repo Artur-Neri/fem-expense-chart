@@ -14,6 +14,7 @@
   <link rel="stylesheet" href="/app/css/globals.css">
   <link rel="stylesheet" href="/app/css/header.css">
   <link rel="stylesheet" href="/app/css/chart.css">
+  <link rel="stylesheet" href="/app/css/total.css">
 
 </head>
 <body onclick>
@@ -30,11 +31,24 @@
     </header>
 
     <main class="chart">
-      <h2 class="chart__heading">Spending - Last 7 days</h2>
-      <div class="graph" id="graph">
-      </div>
-      <div class="chart__days" id="days">
-      </div>
+      <section>
+        <h2 class="chart__heading">Spending - Last 7 days</h2>
+        <div class="graph" id="graph">
+        </div>
+        <div class="chart__days" id="days">
+        </div>
+        <div class="divider"></div>
+      </section>
+      <section class="total">
+        <h3>Total this month</h3>
+        <div>
+          <p class="total__amount">$478.33</p>
+          <div class="total__relative">
+            <p class="total__relative-percentage">+2.4%</p>
+            <p class="total__relative-period">from last month</p>
+          </div>
+        </div>
+      </section>
     </main>
   </div>
   <!-- My balance

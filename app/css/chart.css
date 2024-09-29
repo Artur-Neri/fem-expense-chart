@@ -1,6 +1,5 @@
 .chart {
   background-color: white;
-
   border-radius: 20px;
   padding: 24px 20px;
 }
@@ -26,6 +25,7 @@
   justify-content: space-between;
   align-items: center;
   gap: 12px;
+  margin-bottom: 24px;
 }
 
 .chart__days > * {
@@ -101,6 +101,7 @@
 
   .chart__days {
     gap: 18px;
+    margin-bottom: 32px;
   }
 
   .day {

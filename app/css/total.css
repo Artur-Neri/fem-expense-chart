@@ -1,0 +1,43 @@
+.total {
+  margin-top: 24px;
+}
+
+.total h3, .total__relative-period {
+  font-size: 15px;
+  line-height: 19.5px;
+  color: var(--color-mediumBrown);
+  font-weight: 400;
+  margin-bottom: 4px;
+}
+
+.total__amount {
+  font-size: 30px;
+  font-weight: bold;
+  line-height: 39px;
+}
+
+.total > div {
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+}
+
+.total__relative {
+  text-align: right;
+}
+
+.total__relative-percentage{
+  font-size: 15px;
+  font-weight: bold;
+}
+
+@media (min-width: 450px) {
+  .total h3, .total__relative-period {
+    font-size: 18px;
+    line-height: 23.4px;
+    margin-bottom: 1px;
+  }
+  .total__relative-percentage{
+    font-size: 18px;
+  }
+}

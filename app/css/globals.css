@@ -44,6 +44,12 @@ img {
   width: 100%;
 }
 
+.divider {
+  height: 2px;
+  background-color: #F8E9DD;
+  border-radius: 1px;
+}
+
 @media (min-width: 450px) {
   .container {
     gap: 24px;
