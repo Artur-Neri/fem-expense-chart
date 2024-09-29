@@ -1,5 +1,6 @@
 // import data from '/data.json' assert { type: 'json' };
 const graph = document.querySelector('#graph');
+const days = document.querySelector('#days');
 const data = fetch('/data.json').then(response => response.json())
 .then(converted => 
   populateGraph(converted)
@@ -14,16 +15,16 @@ function populateGraph(arr) {
   });
   arr.forEach(day => {
     let percentatge = getPercentage(max, day.amount);
-    console.log(percentatge)
     if(percentatge == 100.00){
         graph.innerHTML += `
-      <div class="day ${day.day}" style="height:${percentatge}%;background-color:var(--color-cyan)"></div>
+      <div class="day" id="max" style="height:${percentatge}%"><span class="graph__amount">$${day.amount}</span></div>
       `
     } else {
       graph.innerHTML += `
-      <div class="day ${day.day}" style="height:${percentatge}%"></div>
+      <div class="day" style="height:${percentatge}%"><span class="graph__amount">$${day.amount}</span</div>
       `
     }
+    days.innerHTML += `<p>${day.day}</p>`
   });
 }
 
