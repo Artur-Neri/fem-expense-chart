@@ -12,6 +12,19 @@
   margin-bottom: 52px;
 }
 
+.graph {
+  height: 178px;
+  display: flex;
+  justify-content: space-between;
+  gap: 12px;
+  align-items: flex-end;
+}
+
+.day {
+  width: 33px;
+  background-color: var(--color-red);
+}
+
 @media (min-width: 450px){
   .chart {
     padding: 32px 40px 40px;
@@ -21,5 +34,13 @@
     font-size: 32px;
     line-height: 42px;
     margin-bottom: 66px;
+  }
+
+  .graph {
+    gap: 18px;
+  }
+
+  .day {
+    width: 50px;
   }
 }
