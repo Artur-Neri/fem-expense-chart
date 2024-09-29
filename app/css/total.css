@@ -40,4 +40,8 @@
   .total__relative-percentage{
     font-size: 18px;
   }
+  .total__amount {
+    font-size: 48px;
+    line-height: 62.5px;
+  }
 }
